@@ -1,0 +1,21 @@
+cd caminho/da/sua/pasta                          #caminho para sua pasta
+git init                                         #iniciar
+git config --global user.name "seunome"          #seu nome do git hub
+git config --global user.email "seuemail"        #seu email do git hub
+git add nomedoarquivo                            #adicionar um arquivo
+git add .                                        #adicionar todos os arquivos
+git commit -m "Primeiro commit"                  #comitar oque você fez no código
+git remote add origin https://github.com...      #Conectar com o repositório do GitHub
+git branch -M main                               #Mudar de branch para o principal (main)
+git push -u origin main                          #enviar os arquivos no seu repositório na branch principal(main)
+git push -u origin minha-branch                  #criar uma nova branch
+git log                                          #verificar o histório de commits
+
+#pegando repositório ja existente
+
+git clone https://github.com...                  #clonar um repositório ja existente
+git pull                                         #Pega as alterações ja feitas antes
+
+
+
+
