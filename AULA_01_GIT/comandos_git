@@ -14,8 +14,6 @@ git log                                          #verificar o histório de commi
 #pegando repositório ja existente
 
 git clone https://github.com...                  #clonar um repositório ja existente
+code .                                           #abre wm uma nova janela a pasta que eu clonei
+cd e (aperta tab) vai                            #vai para a pasta que você acabou de clonar
 git pull                                         #Pega as alterações ja feitas antes
-
-
-
-
