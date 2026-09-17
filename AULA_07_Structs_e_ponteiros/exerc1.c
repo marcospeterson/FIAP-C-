@@ -36,10 +36,21 @@ int fibonacci (int n){
     return fibonacci (n-1) + fibonacci(n-2);
 }
 
+// Somar somente valores pares do vetor
+int desafioA(int v[], int n){
+    if(n == 0) return 0;
+
+    if(v[n - 2] % 2 == 0) return v[n-1] + desafioA(v, n-1);
+
+    return desafioA(v, n - 1);
+}
+
 int main(){
+    //int v
     //contagem(5);
     printf("O resultado da potencia --> %lld.\n", potencia(2,5));
     printf("O fibonacci do valor 4 --> %d.\n", fibonacci(6));
+    printf("A soma do valores pare -->%d.\n,");
 
     return 0;
 }
